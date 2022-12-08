@@ -24,7 +24,10 @@
 ИНСТРУКЦИЯ ПО ЗАПУСКУ:
 1. Скачать драйвер для браузера Google Chrome - https://chromedriver.chromium.org/downloads
 2. Установить все требуемые библиотеки из файла requirements.txt с помощью команды:
+    
     pip install -r requirements.txt
 3. Запустить разработанные тесты с помощью команды:
+    
     python -m pytest -v --driver Chrome --driver-path C:/Documents/chromedriver.exe tests/test_reg_auth_page_rostelecom.py
+    
     (где C:/Documents - папка с расположением драйвера Chrome)
